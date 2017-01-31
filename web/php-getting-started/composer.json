@@ -1,0 +1,15 @@
+{
+  "require" : {
+    "silex/silex": "^1.3",
+    "monolog/monolog": "^1.4",
+    "twig/twig": "^1.8",
+    "symfony/twig-bridge": "^2",
+	"php": ">=5.2.1",
+    "ext-curl": "*",
+	"ext-openssl": "*",
+	"guzzlehttp/guzzle": "*"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
