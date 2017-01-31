@@ -37,18 +37,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
     compile 'org.apache.directory.studio:org.apache.commons.io:2.4'
     compile 'com.android.volley:volley:1.0.0'
-    compile 'com.squareup.okhttp3:okhttp:3.5.0'
-    compile "com.squareup.okhttp3:okhttp-urlconnection:3.0.0"
 
     testCompile 'junit:junit:4.12'
-
-    // Include the gson dependency
-    compile ('com.google.code.gson:gson:2.3.1')
-
-    // Include supported authentication methods for your application
-    compile ('com.microsoft.services.msa:msa-auth:0.8.+')
-    compile ('com.microsoft.aad:adal:1.1.+')
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'io.reactivex:rxjava:1.1.6'
-    compile 'com.squareup.retrofit:retrofit:1.9.0'
 }
